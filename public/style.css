@@ -1,0 +1,49 @@
+.counter-circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: blue;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.counter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.counter-container .counter-circle {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.emoji-size {
+  font-size: 60px;
+  margin-bottom: 0px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
